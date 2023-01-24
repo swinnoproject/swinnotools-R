@@ -1,0 +1,15 @@
+Package: swinnotools
+Type: Package
+Title: Helpers And Tools for SWINNO in R
+Version: 0.0.0.9000
+Author: Philipp Jonas Kreutzer
+Maintainer: Philipp Jonas Kreutzer <philipp_jonas.kreutzer@ekh.lu.se>
+Description: A collection of tools and helper functions for the
+ [SWINNO research project](https://www.lusem.lu.se/economic-history/databases/swinno).
+License: `use_mit_license()`
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Imports: 
+    readxl,
+    janitor
