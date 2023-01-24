@@ -15,7 +15,7 @@
 #'
 #' @examples
 #' import_clean_swinno('data/swinno.xslx')
-#'
+
 import_clean_swinno <- function(path){
   df <- readxl::read_xlsx(path,
                           .name_repair=janitor::make_clean_names
