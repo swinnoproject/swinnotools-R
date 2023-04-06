@@ -4,7 +4,7 @@
 \alias{filter_in_columns}
 \title{Filter Dataframe for Unique IDs Based on Filtered Values in Specific Columns}
 \usage{
-filter_in_columns(df, use_cols, id_col, filter_values)
+filter_in_columns(df, use_cols, id_col, new_col_name, filter_values)
 }
 \arguments{
 \item{df}{The input dataframe to filter}
