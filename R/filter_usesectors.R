@@ -43,7 +43,6 @@ filter_in_columns <- function(df, use_cols, id_col, new_col_name, filter_values)
 #'
 #' @import dplyr
 #' @importFrom tidyr pivot_longer
-#' @importFrom stats is.numeric
 #' @export
 #'
 #' @examples
